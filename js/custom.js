@@ -19,13 +19,7 @@ $(document).ready(function () {
       $('#Create').css('transform', 'none');
     }
 });
-		/*cr.velocity({
-        opacity: 1,
-        display:'block'
-      },
-	  { 
-        duration: 3000 
-      },'easeInQuart');*/
+	
         
     });
 });

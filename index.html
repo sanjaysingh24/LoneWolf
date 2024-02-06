@@ -317,16 +317,16 @@
   </video>
  </div>
 
-  <div class="row">
+  <div class="row justify-content-between">
     <div class="col-lg-6 ">
      <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'strong')">strong</button>
+      <button class="tablinks" onclick="opentab(event, 'strong')">Strong</button>
      </div>
     
     </div>
     <div class="col-lg-6 ">
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'mild')">mild</button>
+    <div class="tab text-center">
+      <button class="tablinks" onclick="opentab(event, 'mild')">Mild</button>
     </div>
     </div>
   </div>
@@ -336,38 +336,7 @@
       </div>
     </div>
   </section>
-  <!-- Lone_wolf-brewing -->
-  <!-- <section class="lone_wolf_brewing" id="lone_wolf_brewing">
-    <div class="container lone_wolf_brewing_container">
-      <div class="row">
-        <div class="col-lg-6 lone_wolf_brewing_left">
-          <h1>LONE WOLF BREWING</h1>
-          <div class="row mobile_center">
-            <div class="col-lg-4 col-4 position-relative">
-              <div class="wave-1"> <img src="./images/gif-layer.gif"  width="194" height="38" alt="down-arrow "  > </div>
-              <h3 class=" text-end head-2 ">No frills</h3>
-              <div class="wave-2"> <img src="./images/gif-layer.gif"  width="194" height="38" alt="down-arrow "  > </div>
-            </div>
-            <div class="col-lg-8 col-8 ps-0">
-              <h3 class="head-1">Brewed slowly.<br>
-                With the choicest ingredients</h3>
-              <div class="wave-3 wave-padding"> <img src="./images/gif-layer.gif"  width="194" height="38" alt="down-arrow "  > </div>
-              <h3 class="head-3">Just good beer </h3>
-            </div>
-          </div>
-          <h4> Like a Lone Wolf treads its path slowly but surely Each brew is bottled only after it sets itself apart.</h4>
-        </div>
-        <div class="col-lg-6 lone_wolf_brewing_right">
-          <p class="position-relative"><img src="./images/beer-photo.jpg" alt="beer-img" class=" position-relative img-fluid"></p>
-        </div>
-      </div>
-    </div>
-    <div class="waves pt-lg-4 pt-4"> <img src="./images/gif-layer.gif"  width="194" height="38" alt="down-arrow "  > </div>
-    <div class="waves"> <img src="./images/gif-layer.gif"  width="200" height="38" alt="down-arrow "  > </div>
-    <div class="waves"> <img src="./images/gif-layer.gif"  width="194" height="38" alt="down-arrow "  > </div>
-  </section> -->
-  <!-- Lone_wolf-brewing-end --> 
-  
+
   <!-- contact-us-section -->
   <section class="contact-us-section">
     <div class="container">
@@ -536,7 +505,7 @@ setInterval(start, 8000);
 		
 	</script>
   <script>
-    function openCity(evt, video) {
+    function opentab(evt, video) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {

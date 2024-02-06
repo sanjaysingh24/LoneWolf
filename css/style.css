@@ -532,11 +532,12 @@ position:relative;background: url('../images/line-4.png') no-repeat  center cent
 .five_bottles_inner img{text-align:center; margin:0 auto; display:block;}
 .five_bottles_inner ul li{list-style:none; position:absolute; top:14%; left:47.5%;}
 .five_bottles_inner ul li:nth-child(2) {
-    position: absolute;
-    top: 32%;
-    left: -130px;
+  position: absolute;
+  top: 25%;
+  left: -65px;
+
 }
-.five_bottles_inner ul li:nth-child(3){position:absolute; top:32%; left:auto; right:-130px;}
+.five_bottles_inner ul li:nth-child(3){position:absolute; top:27%; left:auto; right:-63px;}
 .bottles_block  .shadow-b{opacity:0; display:none;}
 .bottles_block  a.btn:hover {background:#000; color:#fff;}
 .bottles_block:hover .shadow-b{opacity:1; display:block;}
@@ -2398,6 +2399,15 @@ height: 650px !important;}
   width: 20%;
 }
 }
-
+.tablinks{
+  background-color: white !important;
+  border: 1px solid black;
+  border-radius:20px;
+  padding: 5px 30px;
+}
   
+.tablinks:hover{
+  background-color: #000 !important;
+  color: white !important;
+}
   
